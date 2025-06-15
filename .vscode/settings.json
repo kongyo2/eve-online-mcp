@@ -1,0 +1,10 @@
+{
+  "mcp.servers": {
+    "eve-online-market": {
+      "type": "stdio",
+      "command": "npm",
+      "args": ["start"],
+      "cwd": "${workspaceFolder}"
+    }
+  }
+}
