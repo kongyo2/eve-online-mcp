@@ -1,0 +1,50 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "install"
+      ],
+      "label": "npm: install",
+      "detail": "Install dependencies"
+    },
+    {
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "run",
+        "build"
+      ],
+      "label": "Build EVE Online Market MCP Server",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "dependsOn": [
+        "npm: install"
+      ],
+      "problemMatcher": [
+        "$tsc"
+      ],
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+    {
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "start"
+      ],
+      "label": "Run EVE Online Market MCP Server",
+      "detail": "Start the MCP server",
+      "dependsOn": [
+        "Build EVE Online Market MCP Server"
+      ],
+      "isBackground": true,
+      "problemMatcher": []
+    }
+  ]
+}
