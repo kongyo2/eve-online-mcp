@@ -1,5 +1,7 @@
 # EVE Online Market MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@kongyo2/eve-online-mcp)](https://smithery.ai/server/@kongyo2/eve-online-mcp)
+
 このMCPサーバーは、EVE Onlineのマーケットデータにアクセスするためのインターフェースを提供します。ESI（EVE Swagger Interface）APIを使用して、リアルタイムの市場データを取得できます。
 
 ## 認証とレート制限
@@ -53,6 +55,14 @@
    - より詳細な市場分析が可能
 
 ## セットアップ
+
+### Installing via Smithery
+
+To install eve-online-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kongyo2/eve-online-mcp):
+
+```bash
+npx -y @smithery/cli install @kongyo2/eve-online-mcp --client claude
+```
 
 1. 依存パッケージのインストール：
    ```bash
