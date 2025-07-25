@@ -4,6 +4,10 @@
 
 このMCPサーバーは、EVE Onlineのマーケットデータにアクセスするためのインターフェースを提供します。ESI（EVE Swagger Interface）APIを使用して、リアルタイムの市場データを取得できます。
 
+<a href="https://glama.ai/mcp/servers/@kongyo2/eve-online-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@kongyo2/eve-online-mcp/badge" alt="eve-online-mcp MCP server" />
+</a>
+
 ## 認証とレート制限
 
 このサーバーは現在、パブリックなマーケットデータのみを取得するため、ESI認証は必要ありません。ただし、以下の制限と仕様があります：
