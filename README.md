@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/kongyo2-eve-online-mcp-badge.png)](https://mseep.ai/app/kongyo2-eve-online-mcp)
+
 # EVE Online Market MCP Server
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/kongyo2/eve-online-mcp)
 [![smithery badge](https://smithery.ai/badge/@kongyo2/eve-online-mcp)](https://smithery.ai/server/@kongyo2/eve-online-mcp)
